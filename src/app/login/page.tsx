@@ -173,7 +173,7 @@ export default function AuthPage() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   style={{ paddingRight: '46px' }}
-                  required={mode !== 'reset'} 
+                  required 
                 />
                 <button
                   type="button"
