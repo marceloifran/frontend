@@ -75,7 +75,8 @@ export const useChatStore = create<ChatState>((set, get) => ({
 
       // 2. Call Backend
       const token = await user.getIdToken();
-      const response = await fetch('http://localhost:3001/chat/message', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+      const response = await fetch(`${apiUrl}/chat/message`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
