@@ -2,8 +2,6 @@
 
 Un cliente de Next.js de alta gama que presenta un diseño inspirado en "Glassmorphism" y orquestación de IA en tiempo real. Esta aplicación se enfoca en ofrecer una experiencia de usuario fluida, animada y altamente responsiva.
 
-![Vista del Chat](../docs/screenshots/screenshot-chat.png)
-
 ## ✨ Aspectos Destacados de UI/UX
 
 - **Diseño Glassmorphism**: CSS personalizado utilizando `backdrop-filter` y capas semitransparentes para una apariencia moderna y con profundidad.
